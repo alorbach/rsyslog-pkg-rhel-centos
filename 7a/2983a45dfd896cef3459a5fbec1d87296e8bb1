@@ -1,0 +1,33 @@
+rpmbuild/SPECS/v8-stable-el7.spec
+  s_79f9b936003cba::t_ea527ca3af09c1 54-57
+  s_79f9b936003cba::t_2410f4f90e52a6 37,40-44,46,98,111,656,669,673,677,857,862,1082,1084
+  s_cfd7ecd92d1106::t_194a9e3e3d2720 29-30,99-110,311-312,657-668,674-676,858-861,1083,1153-1162
+rpmbuild/SOURCES/rsyslog-kafka-static-zstd.patch
+  s_79f9b936003cba::t_d2bd93b2e649a3 1-20
+.github/workflows/ci.yml
+  s_cfd7ecd92d1106::t_93bf53da75114e 82,103,110-146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "7a2983a45dfd896cef3459a5fbec1d87296e8bb1",
+  "prompts": {},
+  "sessions": {
+    "s_79f9b936003cba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fae15-29c7-7ee2-90af-9a441c000dfb",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": null
+    },
+    "s_cfd7ecd92d1106": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fadce-ecea-7fa0-a00f-7775358312ec",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Andre Lorbach <alorbach@adiscon.com>"
+    }
+  }
+}
