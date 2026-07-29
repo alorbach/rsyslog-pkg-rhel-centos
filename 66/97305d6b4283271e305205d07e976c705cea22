@@ -1,0 +1,27 @@
+.github/workflows/ci.yml
+  s_b27dd5c420a3d9::t_02814db56a07bd 9,32,35-40,42,70,79,84-90,118,136-140
+config.sh
+  s_b27dd5c420a3d9::t_8cf4f60addb9ee 4
+etc-mock/epel-10-x86_64.cfg
+  s_b27dd5c420a3d9::t_9ced71fd01494c 1-40
+etc-mock/rhel-10-x86_64.cfg
+  s_b27dd5c420a3d9::t_703e6c8498dfb1 1-39
+rpmbuild/SPECS/v8-stable-el7.spec
+  s_b27dd5c420a3d9::t_9409e911bae830 1,14-31,57,106,160-161,167-168,174,203-206,209,283-286,288,361,671-673,751
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "6697305d6b4283271e305205d07e976c705cea22",
+  "prompts": {},
+  "sessions": {
+    "s_b27dd5c420a3d9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fadd1-bc1b-7933-a89d-d7d2c4d2bd0d",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Andre Lorbach <alorbach@adiscon.com>"
+    }
+  }
+}
