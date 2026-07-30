@@ -1,0 +1,42 @@
+rpmbuild/SOURCES/rsyslog-kafka-static-zstd.patch
+  s_79f9b936003cba::t_d2bd93b2e649a3 1-20
+rpmbuild/SPECS/v8-stable-el7.spec
+  s_79f9b936003cba::t_e2b3a2cff73c12 37,40,98,656,674,858,1083
+  s_cfd7ecd92d1106::t_3c0a2ca4799a1e 41-44,46,111,670,678,863,1085
+  s_cfd7ecd92d1106::t_194a9e3e3d2720 57
+  s_6f39813cdaca90::t_ce2eb6b89d3be7 29-30,54-56,99-110,311-312,657-669,675-677,859-862,1084,1154-1167
+.github/workflows/ci.yml
+  s_cfd7ecd92d1106::t_8416cafb71efb1 82,103,110-146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "25832d54294503b15832c1b94c975ff5bbde3aff",
+  "prompts": {},
+  "sessions": {
+    "s_6f39813cdaca90": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fb16b-d9c6-7e90-ab09-661682fc6e78",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Andre Lorbach <alorbach@adiscon.com>"
+    },
+    "s_79f9b936003cba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fae15-29c7-7ee2-90af-9a441c000dfb",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": null
+    },
+    "s_cfd7ecd92d1106": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fadce-ecea-7fa0-a00f-7775358312ec",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Andre Lorbach <alorbach@adiscon.com>"
+    }
+  }
+}
